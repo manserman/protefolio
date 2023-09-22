@@ -7,7 +7,7 @@
     font-size: 16px; 
     font-weight: bold; 
     color: #f8f6f6; 
-    margin: 10px;
+   margin: 10px;
     display: inline-block;
     padding-top: 35px;
     margin-left: auto;
@@ -22,8 +22,8 @@ position: fixed;
 .photo {
     width: 60%; 
     height: 40%; 
-    border-radius: 50%;
-    background-color: antiquewhite;
+    border-radius: 30%;
+    background-color: white;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: auto;
@@ -48,6 +48,21 @@ position: fixed;
     width: 100%;
     overflow: visible;
     border: red;
+}
+
+#block1{
+    border: solid;
+    color: black;
+    font-size: 70px;
+}
+
+#nom{
+    font-size: 70px;
+}
+
+#logo{
+    height: 25%;
+    width: 25%;
 }
 
 .blockTitle{
