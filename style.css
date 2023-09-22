@@ -1,5 +1,58 @@
 .section{
-    border: solid,black;
-    height: 20%;
-    background: black;
+    width: 90%; 
+    height: 100px; 
+    background-color: #217B8A;
+
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #f8f6f6; 
+    margin: 10px;
+    display: inline-block;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
+.sidebar{
+width: 25%;
+background-color:  #3B3B39;
+position: fixed;
+}
+.photo {
+    width: 60%; 
+    height: 40%; 
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.mainBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400%;
+    width: 100%;
+    border: solid, red;
+    margin-left: 25%;
+}
+
+.block{
+    height: 150%;
+    width: 100%;
+    overflow: visible;
+    border: red;
+}
+
+.blockTitle{
+    margin-top: 20px;
+}
+
+
+
